@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SSJKV</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- CSS Link-->
+    <link href="main.css" rel="stylesheet" type="text/css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <style>
+
+
+            h1{
+                 padding-top: 50px;
+                 padding-bottom: 5px;
+
+            }
+            h2{
+                  padding-top: 25px;
+                  padding-bottom: 50px;
+            }
+            * {box-sizing: border-box}
+
+
+            /* logout button */
+            .logoutLblPos{
+                position:fixed;
+                right:10px;
+                top:5px;
+             }
+
+
+           /* /* style the container -- can pull code from another page to use again */
+
+            /* style inputs and link buttons */
+            input,
+            .btn {
+              width: 100%;
+              padding: 12px;
+              border: none;
+              border-radius: 4px;
+              margin: 5px 0;
+              opacity: 0.85;
+              display: inline-block;
+              font-size: 17px;
+              line-height: 20px;
+              text-decoration: none; /* remove underline from anchors */
+            }
+
+            input:hover,
+            .btn:hover {
+              opacity: 1;
+            }
+
+            /* style the submit button */
+            input[type=submit] {
+              background-color: #4CAF50;
+              color: white;
+              cursor: pointer;
+            }
+
+            input[type=submit]:hover {
+              background-color: #45a049;
+            }
+
+
+
+
+
+
+            /* hide some text on medium and large screens */
+            .hide-md-lg {
+              display: none;
+            }
+
+
+            /* Responsive layout - when the screen is less than 650px wide, make the two columns stack on top of each other instead of next to each other */
+            @media screen and (max-width: 650px) {
+              .col {
+                width: 100%;
+                margin-top: 0;
+              }
+              /* hide the vertical line */
+              .vl {
+                display: none;
+              }
+
+              /* show the hidden text on small screens */
+              .hide-md-lg {
+                display: block;
+                text-align: center;
+              }
+            }
+              img {
+                max-width: 100%;
+                height: auto;
+            }
+
+
+    </style>
+</head>
+<body>
+<center><h1 style="color:white;">Outbound Ticket</h1></center>
+<div class="container-fluid">
+   <center><h2 style="color:white;">Select Ticket</h2></center>
+
+    <body style="background-color:#0B2C45;">
+    <!--Below is where you link the database to the ticket information. Where it says "a href="#", you
+    could link the database there maybe. Let me know if you have any questions. -->
+
+    <div class="list-group">
+        <a href="#" class="list-group-item list-group-item-action">First item</a>
+        <a href="#" class="list-group-item list-group-item-action">Second item</a>
+        <a href="#" class="list-group-item list-group-item-action">Third item</a>
+        <a href="#" class="list-group-item list-group-item-action">Fourth item</a>
+        <a href="#" class="list-group-item list-group-item-action">Fifth item</a>
+        <a href="#" class="list-group-item list-group-item-action">Sixth item</a>
+        <a href="#" class="list-group-item list-group-item-action">Seventh item</a>
+        <a href="#" class="list-group-item list-group-item-action">Eighth item</a>
+
+    </div>
+
+    </div>
+</div>
+
+<!--Logout button-->
+<form align="right" name="form1" method="post" action="log_out.php">
+    <label class="logoutLblPos">
+        <input name="submit2" type="submit" id="submit2" value="Log out">
+    </label>
+</form>
+
+<form action="/action_page.php" method="get">
+    <center>
+        <div class="container">
+            <form action="/action_page.php">
+                <div class="row">
+
+                    <div class="vl">
+                    </div>
+
+                    <form class="form-inline">
+
+
+                    </form>
+
+                </div>
+            </form>
+        </div>
+
+
+        <img src="https://raw.githubusercontent.com/5aleh/book-on-time/master/Terlogo.PNG"/>
+
+
+
+
+<a href="mainPage.html"></a>
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</body>
+</html>
