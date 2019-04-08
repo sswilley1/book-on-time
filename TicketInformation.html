@@ -16,7 +16,9 @@
             h2{
                   padding-top: 25px;
                   padding-bottom: 50px;
+                  padding-left: 25px;
             }
+
             * {box-sizing: border-box}
 
 
@@ -92,18 +94,54 @@
               img {
                 max-width: 100%;
                 height: auto;
+                border: #00008B 4px solid;
             }
+            table {
+            color: white;
+            }
+            .submit {
+            padding: 15px 32px;
+            font-size: 16px;
+            }
+
 
 </style>
 <body>
 <body style="background-color:#0B2C45;">
     <center><h1 style="color:white;">Ticket Information</h1></center>
-   <!-- <img src="https://raw.githubusercontent.com/5aleh/book-on-time/master/Terlogo.PNG"/>-->
+    <h2 style="color:white;">Purchase Order</h2>
 
 
+    <table class="table">
+        <thead>
+        <tr>
 
+            <th scope="col">Description</th>
+            <th scope="col">Quantity</th>
+            <th scope="col">Cost</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <th scope="row">Traveling To:...</th>
+            <td>1 Adult</td>
+            <td>$$$</td>
 
+        </tr>
+        <tr>
+            <th scope="row">Traveling To:...</th>
+            <td>1 Adult</td>
+            <td>$$$</td>
 
+        </tr>
+        <tr>
+            <th scope="row">Traveling To:...</th>
+            <td>1 Adult</td>
+            <td>$$$</td>
+
+        </tr>
+        </tbody>
+    </table>
 
 
     </div>
@@ -134,7 +172,7 @@
 
 
                     <form action="process_main.php" method="get">
-                        <input type="submit" formaction="MainPage.html" value="Checkout">
+                        <input type="submit" formaction="ChooseSeat.html" value="Checkout">
                     </form>
 
 
@@ -158,5 +196,6 @@
 
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+                    <img src="https://raw.githubusercontent.com/5aleh/book-on-time/master/Terlogo.PNG"/>
 </body>
 </html>
